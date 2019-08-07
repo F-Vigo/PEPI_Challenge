@@ -1,4 +1,4 @@
-In order to run the script, the data file (exercise1.json) must be in the same directory. Other than that, one just need to open the console at such path and run the script. On windows, it should be written "python ex1.py".
+In order to run the script, the data file (exercise1.json) must be in the same directory. Other than that, one just need to open the console at such path and run the script. On windows, it should be typed "python ex1.py".
 
 
 ###########################################################
@@ -14,6 +14,6 @@ In the second section, we make all the arrangements required to get the data inp
 The third section represents the main part of the solution.
 	· The first function builds all the possible tours of n cities such that start and end at the base.
 	· The second one generates all the possible tours of length from one to n. This way, we accept the fact that a tour of length less than n might be better than another one with n cities.
-	· mainFuction is used to, once we have all the valid tours thanks to the previous function, get the best tours (the optimal tours). In case of tie, the shortest tours are chosen.
+	· mainFuction is used to, once we have all the valid tours thanks to the previous function, get the best tours (the optimal tours). In case of draw, the shortest tours are chosen.
 	
-The last section lets the user interact with the program by means of the console.
+The last section lets the user interact with the programme by means of the console.
