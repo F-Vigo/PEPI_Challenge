@@ -31,13 +31,13 @@ def balance(tour): # We call a tour the whole itinerary the player follows. This
         if not tour[i] in visited: # The reward is obtained only the first time a city is visited.
             income += cities[tour[i]].reward
             visited.append(tour[i])
+            
     expenses = 0
     for i in range(length-1):
         expenses += connections[tour[i]][tour[i+1]]
 
     return income - expenses
         
-
 
 
 ############################## INPUT FROM FILE ##############################
