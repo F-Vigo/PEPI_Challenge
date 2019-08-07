@@ -120,7 +120,7 @@ def toursWithLength(n): # Generates all valid tours of length n.
 
 def toursUpTo(n): # Generates all valid tours for at most n days.
     result = []
-    for i in range(1,n+2): # The player visits n+1 cities (taking into account the base and the beginning and the end as well as repeated cities) in n days.
+    for i in range(1,n+2): # The player visits n+1 cities (taking into account the base at the beginning and the end as well as repeated cities) in n days.
         result = result + toursWithLength(i)
     return result
 
